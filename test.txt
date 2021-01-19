@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<title>Lijken op je hond ... 2</title>
+	<link rel="stylesheet" href="test.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <form>
+        <label for="gebruikersnaam">Gebruikersnaam:</label>
+        <input type="text" id="gebruikersnaam" name="gebruikersnaam"><br>
+        <label for="wachtwoord">wachtwoord:</label>
+        <input type="text" id="wachtwoord" name="Wachtwoord"><br>
+        <input type="submit" value="Aanmelden"><br>
+        <label for="geslacht">Geslacht:</label><br>
+        <laber for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <laber for="male">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <laber for="male">Neutraal</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="op"> Hou me op de hoogte</label>
+        <input type="checkbox" value="yes" id= "op" name="op"><br>
+        <label for="kleur">kies een kleur:</label><br>
+        <select name="kleur" id="kleur">
+            <option value="rood">Rood</option>
+            <option value="rood">Rood</option>
+            <option value="rood">Rood</option>
+            <option value="rood">Rood</option>
+
+
+
+        </select>
+    </form>
+
+</body>
+</html>
